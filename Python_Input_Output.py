@@ -52,3 +52,14 @@ name = input("Enter value for name = ")
 age = input("Enter value for age = ")
 print("User name = ",name)
 print("User age = ",age)
+
+
+# Convert type of data during the input
+name = input("Enter value for name = ")
+age = int(input("Enter value for age = "))
+print("User name = ",name)
+print("User age = ",age)
+
+
+print("Type of name = ", type(name))
+print("Type of age = ", type(age))
