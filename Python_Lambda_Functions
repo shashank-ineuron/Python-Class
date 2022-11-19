@@ -64,3 +64,32 @@ list_b = [5,4,3,2,1]
 sum_two_elements = lambda x , y : x + y
 result =  list(map(sum_two_elements , list_a, list_b ))
 print(result)
+
+# How to use reduce ??
+import functools
+
+list_x = [1,2,3,4,5]
+add_two_nums = lambda x , y : x + y
+
+result = functools.reduce(add_two_nums , list_x)
+print(result)
+
+multiply_two_nums  = lambda x , y : x * y
+result = functools.reduce(multiply_two_nums , list_x)
+print(result)
+
+
+# How to use filter ()
+
+# Create list of only odd elements
+seq = [1,2,5,6,9,7,10]
+
+filter_odd = lambda x : x % 2 != 0
+
+result = list(filter(filter_odd , seq))
+print(result)
+
+filter_even = lambda x : x % 2 == 0
+
+result = list(filter(filter_even , seq))
+print(result)
