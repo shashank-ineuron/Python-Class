@@ -55,3 +55,16 @@ except ZeroDivisionError:
 else:
     print("Calculation completed !!")
     print(result)
+
+# Use Of Finally Keyword
+a = 5
+try:
+    result = a / 0
+    # result = a / 2
+except ZeroDivisionError:
+    print("Error Occured because of Division by 0 !!")
+else:
+    print("Calculation completed !!")
+    print(result)
+finally:
+    print("Doesn't matter try-except but I will print myself !!")
