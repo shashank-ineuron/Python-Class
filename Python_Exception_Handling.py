@@ -44,3 +44,14 @@ except KeyError:
     print("Search Key Doesn't Exists !!")
 except Exception as err:
     print("Error Occured and Message : ", err)
+    
+ # Use of Else Block
+a = 5
+try:
+    #result = a / 0
+    result = a / 2
+except ZeroDivisionError:
+    print("Error Occured because of Division by 0 !!")
+else:
+    print("Calculation completed !!")
+    print(result)
