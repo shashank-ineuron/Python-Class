@@ -10,12 +10,13 @@
 
 x = 5
 y = 3
+str_data = ""
 
 print("Addition of x + y = ", x+y)
-print("Substraction of x - y = ", x-y)
+print("Subtraction of x - y = ", x-y)
 print("Multiplication of x * y = ", x*y)
 print("Float Division of x / y = ", x/y)
-print("Integer Divison of x // y = ", x//y)
+print("Integer Division of x // y = ", x//y)
 print("Modulus of x % y = ", x%y)
 print("Power of y on x i.e; x ** y = ", x**y)
 
